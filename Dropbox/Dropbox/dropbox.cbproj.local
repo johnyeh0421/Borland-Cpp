@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/05/22 09:04:32.000.471,=C:\Users\john\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017/05/22 09:04:35.000.946,=C:\Users\john\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017/05/22 09:45:59.000.703,=C:\Users\john\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2017/05/22 09:46:01.000.296,=C:\Users\john\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2017/05/22 09:47:53.000.771,C:\Users\john\Documents\Embarcadero\Studio\Projects\Unit1.h=D:\021_Embarcadero\C++\Dropbox\Unit1.h</Transaction>
+    <Transaction>2017/05/22 09:47:53.000.771,C:\Users\john\Documents\Embarcadero\Studio\Projects\Unit1.fmx=D:\021_Embarcadero\C++\Dropbox\Unit1.fmx</Transaction>
+    <Transaction>2017/05/22 09:47:53.000.771,C:\Users\john\Documents\Embarcadero\Studio\Projects\Unit1.cpp=D:\021_Embarcadero\C++\Dropbox\Unit1.cpp</Transaction>
+    <Transaction>2017/05/22 09:47:54.000.983,C:\Users\john\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=D:\021_Embarcadero\C++\Dropbox\Project1PCH1.h</Transaction>
+    <Transaction>2017/05/22 09:47:56.000.025,C:\Users\john\Documents\Embarcadero\Studio\Projects\Project1.cbproj=D:\021_Embarcadero\C++\Dropbox\Project1.cbproj</Transaction>
+    <Transaction>2019/05/26 23:16:40.000.590,C:\Users\john\Desktop\Dropbox\Dropbox\Project1.cbproj=C:\Users\john\Desktop\Dropbox\Dropbox\dropbox.cbproj</Transaction>
+    <Transaction>2019/05/26 23:16:40.000.539,C:\Users\john\Desktop\Dropbox\Dropbox\Project1PCH1.h=C:\Users\john\Desktop\Dropbox\Dropbox\dropboxPCH1.h</Transaction>
+  </Transactions>
+</BorlandProject>

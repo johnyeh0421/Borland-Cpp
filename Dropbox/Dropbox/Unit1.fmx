@@ -1,0 +1,273 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 609
+  ClientWidth = 1048
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object WebBrowser1: TWebBrowser
+    Size.Width = 465.000000000000000000
+    Size.Height = 545.000000000000000000
+    Size.PlatformDefault = False
+    Position.X = 24.000000000000000000
+    Position.Y = 56.000000000000000000
+    OnDidFinishLoad = WebBrowser1DidFinishLoad
+    object Edit2: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Position.X = 474.000000000000000000
+      Position.Y = 62.000000000000000000
+      Size.Width = 550.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Button1: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Get Authorzaion Code'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 488.000000000000000000
+    Position.Y = 352.000000000000000000
+    Size.Width = 553.000000000000000000
+    Size.Height = 249.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Viewport.Width = 549.000000000000000000
+    Viewport.Height = 245.000000000000000000
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 3
+    Position.X = 488.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 553.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button2: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 168.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 145.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Get Access Token'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Enabled = False
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 840.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 10
+    Text = 'List Folder'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Position.X = 1016.000000000000000000
+    Position.Y = 328.000000000000000000
+    Size.Width = 25.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 11
+    Text = 'X'
+    OnClick = Button4Click
+  end
+  object Label1: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 493.000000000000000000
+    Position.Y = 50.000000000000000000
+    Size.Width = 156.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Authorzation Code'
+  end
+  object Label2: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 493.000000000000000000
+    Position.Y = 96.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 23.000000000000000000
+    Size.PlatformDefault = False
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Access Token'
+  end
+  object Button5: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 488.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 15
+    Text = 'Append Content'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button5Click
+  end
+  object Label3: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 491.000000000000000000
+    Position.Y = 187.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'File Content'
+  end
+  object Label4: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 492.000000000000000000
+    Position.Y = 144.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'Session ID'
+  end
+  object Edit3: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 18
+    Position.X = 488.000000000000000000
+    Position.Y = 161.000000000000000000
+    Size.Width = 553.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Button6: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 360.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 19
+    Text = 'Get Session Id'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button6Click
+  end
+  object Edit4: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 20
+    Text = 'DataLog'
+    Position.X = 488.000000000000000000
+    Position.Y = 317.000000000000000000
+    Size.Width = 153.000000000000000000
+    Size.Height = 24.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Label5: TLabel
+    StyledSettings = [Family, FontColor]
+    Position.X = 488.000000000000000000
+    Position.Y = 298.000000000000000000
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Text = 'FileName'
+  end
+  object Button7: TButton
+    StyledSettings = [Family, Size, FontColor]
+    Position.X = 616.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 22
+    Text = 'Finish Append'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Enabled = False
+    StyledSettings = [Family, FontColor]
+    Position.X = 944.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 97.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 23
+    Text = 'Create File'
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    OnClick = Button8Click
+  end
+  object Memo2: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 488.000000000000000000
+    Position.Y = 208.000000000000000000
+    Size.Width = 553.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 24
+    Viewport.Width = 549.000000000000000000
+    Viewport.Height = 77.000000000000000000
+  end
+  object Button9: TButton
+    Position.X = 928.000000000000000000
+    Position.Y = 184.000000000000000000
+    Size.Width = 112.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 26
+    Text = 'Refresh DateTime'
+    OnClick = Button9Click
+  end
+  object Timer1: TTimer
+    Interval = 200
+    OnTimer = Timer1Timer
+    Left = 856
+    Top = 24
+  end
+  object RESTClient1: TRESTClient
+    Authenticator = OAuth2Authenticator1
+    AutoCreateParams = False
+    ContentType = 'application/octet-stream'
+    Params = <>
+    HandleRedirects = True
+    Left = 48
+    Top = 72
+  end
+  object RESTRequest1: TRESTRequest
+    Client = RESTClient1
+    Params = <>
+    Response = RESTResponse1
+    OnAfterExecute = RESTRequest1AfterExecute
+    SynchronizedEvents = False
+    Left = 128
+    Top = 72
+  end
+  object RESTResponse1: TRESTResponse
+    Left = 216
+    Top = 72
+  end
+  object RESTResponseDataSetAdapter1: TRESTResponseDataSetAdapter
+    FieldDefs = <>
+    Left = 352
+    Top = 72
+  end
+  object OAuth2Authenticator1: TOAuth2Authenticator
+    Left = 72
+    Top = 136
+  end
+  object SimpleAuthenticator1: TSimpleAuthenticator
+    Left = 216
+    Top = 136
+  end
+end
